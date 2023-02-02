@@ -14,4 +14,5 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         source: public/*
         target: ${{ secrets.SSH_DIR }}
-        password: ${{ secrets.SSH_PASSWORD }}
+        key: ${{ secrets.SSH_KEY }}
+        script: whoami
