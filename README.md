@@ -1,5 +1,5 @@
 # Mark R. Havens Tech Blog
-Welcome to the Github repository Mark Havens' personal tech blog! Here you will find his thoughts, opinions, and musings on the latest developments in the technology industry.
+Welcome to the Github repository Mark Havens' personal tech blog! Here you will find his thoughts, opinions, and musings on the latest developments in the IT industry.
 
 This site was created using the Hugo static site generator and the Mediumish theme.
 
