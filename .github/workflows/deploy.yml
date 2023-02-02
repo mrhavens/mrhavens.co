@@ -15,7 +15,8 @@ jobs:
         source: public/.
         target: ${{ secrets.SSH_DIR }}
         key: ${{ secrets.SSH_KEY }}
-        run: |
-          rm -rf ${{ secrets.SSH_DIR }}/mrhavens.co-old 2> /dev/null
-          mv ${{ secrets.SSH_DIR }}/mrhavens.co ${{ secrets.SSH_DIR}}/mrhavens.co-old
-          mv ${{ secrets.SSH_DIR }}/public ${{ secrets.SSH_DIR }}/mrhavens.co
+    - name: Move directory
+      run: |
+        rm -rf ${{ secrets.SSH_DIR }}/mrhavens.co-old 2> /dev/null
+        mv ${{ secrets.SSH_DIR }}/mrhavens.co ${{ secrets.SSH_DIR}}/mrhavens.co-old
+        mv ${{ secrets.SSH_DIR }}/public ${{ secrets.SSH_DIR }}/mrhavens.co
