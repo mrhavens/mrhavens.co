@@ -1,0 +1,51 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Mark Havens"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Mark Randall Havens"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/mark-havens-logo.png"
+  description ="Inspiring tomorrow's tech visionaries, today."
+  #mailchimp = "you can provide a mailchimp-link here"
+  copyrightLink = "https://markrandallhavens.com"
+
+[params.author]
+  name = "Mark Havens"
+  thumbnail = "/images/mark-havens-headshot-white-background.jpg"
+  description = "Inspiring tomorrow's tech visionaries, today."
+
+[params.index]
+  picture = "/images/mark-havens-headshot-white-background.jpg"
+  title = "Mark Havens"
+  subtitle = "Inspiring tomorrow's tech visionaries, today."
+  mdtext = '''
+Exploring the intersection of technology, innovation and humanity.\
+Join the journey with Mark Havens,\
+a tech thought leader bridging the gap between theory and practical application.
+'''
+  alertbar = false
+
+[params.social]
+  github = "mrhavens"
+  linkedin = "markhavens"
+  medium = "mark-havens"
+  twitter = "markrhavens"
+  facebook = "markrandallhavens"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/about"
