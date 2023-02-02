@@ -10,7 +10,7 @@ publishDir = "public"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
 [params]
-  logo = "/images/mark-havens-logo.png"
+  logo = "/images/logo.png"
   description ="Inspiring tomorrow's tech visionaries, today."
   #mailchimp = "you can provide a mailchimp-link here"
   copyrightLink = "https://markrandallhavens.com"
