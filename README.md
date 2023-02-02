@@ -8,3 +8,5 @@ Please note that this site as a whole is not licensed. The Hugo software is lice
 To stay updated with Mark's latest thoughts, projects and more, [follow him on Twitter](https://twitter.com/markrhavens).
 
 Enjoy the site and feel free to leave a comment or reach out to Mark with any questions or feedback!
+
+
