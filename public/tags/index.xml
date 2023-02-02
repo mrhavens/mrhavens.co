@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mark Havens</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Mark Havens</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Mark Randall Havens</copyright>
+    <lastBuildDate>Wed, 02 Feb 2022 11:17:14 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Wed, 02 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>/tags/devops/</link>
+      <pubDate>Wed, 02 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sysadmin</title>
+      <link>/tags/sysadmin/</link>
+      <pubDate>Wed, 02 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>/tags/kubernetes/</link>
+      <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>saas</title>
+      <link>/tags/saas/</link>
+      <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
+      
+      <guid>/tags/saas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,27 +1,32 @@
-name: Deploy
+name: MasterCI
 
 on:
   push:
     branches:
-      - main
-
-env:
-  PROVIDER_USER: ${{ secrets.PROVIDER_USER }}
-  PROVIDER_HOST: ${{ secrets.PROVIDER_HOST }}
+      - master
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    name: Build and Deploy
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - uses: actions/checkout@master
 
-    - name: Deploy
-      uses: appleboy/scp-action@v1
-      with:
-        host: ${{ env.PROVIDER_HOST }}
-        username: ${{ env.PROVIDER_USER }}
-        key: ${{ secrets.PROVIDER_KEY }}
-        source: "./"
-        target: "${HOME}/mrhavens.co"
+      - name: Bucket actions
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8
+      - run: npm i
+      - run: npm run test
+      - run: npm run generate
+      
+      - name: Publish
+        uses: nogsantos/scp-deploy@master
+        with:
+          src: ./public/*
+          host: ${{ secrets.SSH_HOST }}
+          remote: ${{ secrets.SSH_DIR }}
+          port: ${{ secrets.SSH_PORT }}
+          user: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
