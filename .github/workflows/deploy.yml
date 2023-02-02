@@ -1,0 +1,27 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PROVIDER_USER: ${{ secrets.PROVIDER_USER }}
+  PROVIDER_HOST: ${{ secrets.PROVIDER_HOST }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy
+      uses: appleboy/scp-action@v1
+      with:
+        host: ${{ env.PROVIDER_HOST }}
+        username: ${{ env.PROVIDER_USER }}
+        key: ${{ secrets.PROVIDER_KEY }}
+        source: "./"
+        target: "${HOME}/mrhavens.co"
