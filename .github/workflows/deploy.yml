@@ -15,3 +15,6 @@ jobs:
         source: ./public/.
         target: ${{ secrets.SSH_DIR }}
         key: ${{ secrets.SSH_KEY }}
+    - run: |
+        mv ${{ secrets.SSH_DIR }}/public/. ${{ secrets.SSH_DIR }}
+        mv ${{ secrets.SSH_DIR }}/public ${{ secrets.SSH_DIR }}/..
