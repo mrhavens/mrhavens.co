@@ -5,15 +5,22 @@ theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = "Mark Randall Havens"
 enableEmoji = true
-publishDir = "public"
+publishDir = "docs"
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
+
+[images]
+
+  enable = true
+  quality = 80
+  jpegfancy = true
 
 [params]
   logo = "/images/logo.png"
   description ="Inspiring tomorrow's tech visionaries, today."
   #mailchimp = "you can provide a mailchimp-link here"
   copyrightLink = "https://markrandallhavens.com"
+  image_folder = "assets/images"
 
 [params.author]
   name = "Mark Havens"
