@@ -20,13 +20,30 @@ jobs:
       - run: npm i
       - run: npm run test
       - run: npm run generate
-      
-      - name: Publish
-        uses: nogsantos/ssh-scp-deploy@master
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
         with:
-          src: ./public/*
+          name: public
+          path: ./public/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy to Server
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@master
+        with:
+          name: public
+
+      - name: Deploy
+        uses: actions/upload-file@master
+        with:
+          source: public/*
+          target: ${{ secrets.SSH_DIR }}
           host: ${{ secrets.SSH_HOST }}
-          remote: ${{ secrets.SSH_DIR }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          user: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
