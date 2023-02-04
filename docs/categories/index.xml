@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mark Havens</title>
-    <link>/categories/</link>
+    <link>https://mrhavens.co/categories/</link>
     <description>Recent content in Categories on Mark Havens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Mark Randall Havens</copyright><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Mark Randall Havens</copyright><atom:link href="https://mrhavens.co/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

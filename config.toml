@@ -17,6 +17,7 @@ publishDir = "docs"
 
 [params]
   logo = "/images/mark-havens-logo.png"
+  url = "/"
   description ="Inspiring tomorrow's tech visionaries, today."
   #mailchimp = "you can provide a mailchimp-link here"
   copyrightLink = "https://markrandallhavens.com"

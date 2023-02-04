@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mark Havens</title>
-    <link>/</link>
+    <link>https://mrhavens.co/</link>
     <description>Recent content on Mark Havens</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Mark Randall Havens</copyright>
-    <lastBuildDate>Wed, 02 Feb 2022 11:17:14 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 11:17:14 +0200</lastBuildDate><atom:link href="https://mrhavens.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Future of DevOps: The Rise of AI-Powered Automation</title>
-      <link>/blog/the-future-of-devops-the-rise-of-ai-powered-automation/</link>
+      <link>https://mrhavens.co/blog/the-future-of-devops-the-rise-of-ai-powered-automation/</link>
       <pubDate>Wed, 02 Feb 2022 11:17:14 +0200</pubDate>
       
-      <guid>/blog/the-future-of-devops-the-rise-of-ai-powered-automation/</guid>
+      <guid>https://mrhavens.co/blog/the-future-of-devops-the-rise-of-ai-powered-automation/</guid>
       <description>Imagine a world where your systems are managed and maintained by an AI copilot, freeing you from the mundane and repetitive tasks of DevOps. This future is not as far-off as you might think.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>https://mrhavens.co/about/</link>
       <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://mrhavens.co/about/</guid>
       <description>About Mark R. Havens Mark Havens is a seasoned professional in the fields of computer science, engineering, and technology. With over two decades of experience in both academia and industry, he has a unique perspective on the latest trends and developments in technology.</description>
     </item>
     
     <item>
       <title>AI Revolutionizing SAAS Development: A Hypothetical Future Scenario</title>
-      <link>/blog/ai-revolutionizing-saas-development-a-hypothetical-future-scenario/</link>
+      <link>https://mrhavens.co/blog/ai-revolutionizing-saas-development-a-hypothetical-future-scenario/</link>
       <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
       
-      <guid>/blog/ai-revolutionizing-saas-development-a-hypothetical-future-scenario/</guid>
+      <guid>https://mrhavens.co/blog/ai-revolutionizing-saas-development-a-hypothetical-future-scenario/</guid>
       <description>Introduction The future of software development is rapidly changing, and the rise of Artificial Intelligence (AI) is at the forefront of these changes. As AI technology becomes more sophisticated and integrated into the software development process, the possibility of creating software as a service (SAAS) solutions entirely by AI is becoming a reality.</description>
     </item>
     
     <item>
       <title>The Future is Now: How AI is Revolutionizing Kubernetes Deployments</title>
-      <link>/blog/the-future-is-now-how-ai-is-revolutionizing-kubernetes-deployments/</link>
+      <link>https://mrhavens.co/blog/the-future-is-now-how-ai-is-revolutionizing-kubernetes-deployments/</link>
       <pubDate>Tue, 01 Feb 2022 11:17:14 +0200</pubDate>
       
-      <guid>/blog/the-future-is-now-how-ai-is-revolutionizing-kubernetes-deployments/</guid>
+      <guid>https://mrhavens.co/blog/the-future-is-now-how-ai-is-revolutionizing-kubernetes-deployments/</guid>
       <description>You&amp;rsquo;ve just landed your dream job as a DevOps Engineer at a cutting-edge startup, and your first task is to deploy a new Kubernetes cluster.</description>
     </item>
     
     <item>
       <title>Separate post in seperate content-folder</title>
-      <link>/separate/separate/</link>
+      <link>https://mrhavens.co/separate/separate/</link>
       <pubDate>Tue, 19 Mar 2019 22:04:13 +0100</pubDate>
       
-      <guid>/separate/separate/</guid>
+      <guid>https://mrhavens.co/separate/separate/</guid>
       <description>This is a seperate post in a seperate content-folder Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum.</description>
     </item>
     
     <item>
       <title>Imprint</title>
-      <link>/static/imprint/</link>
+      <link>https://mrhavens.co/static/imprint/</link>
       <pubDate>Sun, 07 Oct 2018 11:12:00 +0200</pubDate>
       
-      <guid>/static/imprint/</guid>
+      <guid>https://mrhavens.co/static/imprint/</guid>
       <description>Imprint Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</description>
     </item>
     
