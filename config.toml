@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://markhavens.co"
 languageCode = "en-us"
 title = "Mark Havens"
 theme = "mediumish-gohugo-theme"
