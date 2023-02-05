@@ -16,7 +16,7 @@ publishDir = "docs"
   jpegfancy = true
 
 [params]
-  logo = "/images/mark-havens-logo.png"
+  logo = "/images/mark-havens-logo-small.png"
   url = "/"
   description ="Inspiring tomorrow's tech visionaries, today."
   #mailchimp = "you can provide a mailchimp-link here"
