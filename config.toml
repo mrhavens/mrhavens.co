@@ -25,11 +25,11 @@ publishDir = "docs"
 
 [params.author]
   name = "Mark Havens"
-  thumbnail = "/images/mark-havens-headshot-white-background-thumb.jpg"
+  thumbnail = "/images/mark-havens-headshot-white-background-thumb2.jpg"
   description = "Inspiring tomorrow's tech visionaries, today."
 
 [params.index]
-  picture = "/images/mark-havens-headshot-white-background3.jpg"
+  picture = "/images/mark-havens-headshot-white-background4.jpg"
   title = "Mark Havens"
   subtitle = "Inspiring tomorrow's tech visionaries, today."
   mdtext = '''
