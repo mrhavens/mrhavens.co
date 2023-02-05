@@ -26,12 +26,12 @@ publishDir = "docs"
 [params.author]
   name = "Mark Havens"
   thumbnail = "/images/mark-havens-headshot-200x200.jpg"
-  description = "Tech entreprener and writer."
+  description = "Tech entreprener and writer"
 
 [params.index]
   picture = "/images/mark-havens-headshot-800x800.jpg"
   title = "Mark Havens"
-  subtitle = "Tech entreprener and writer."
+  subtitle = "Tech entreprener and writer"
   mdtext = '''
 Exploring the intersection of technology, innovation and humanity.\
 Join the journey with Mark Havens,\
