@@ -1,5 +1,5 @@
 # Mark R. Havens Tech Blog
-Welcome to the Github repository of my personal tech blog at [mrhavens.co](https://mrhavens.co)! Here you will find my thoughts, opinions, and musings on the latest developments in the IT industry.
+Welcome to the Github repository of [my personal tech blog](https://mrhavens.co)! Here you will find my thoughts, opinions, and musings on the latest developments in the IT industry.
 
 This site was created using the Hugo static site generator and the [Mediumish](https://github.com/lgaida/mediumish-gohugo-theme) theme.
 
