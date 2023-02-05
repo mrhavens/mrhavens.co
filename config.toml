@@ -29,7 +29,7 @@ publishDir = "docs"
   description = "Tech entreprener and writer"
 
 [params.index]
-  picture = "/images/mark-havens-headshot-800x800.jpg"
+  picture = "/images/mark-havens-headshot-300x300.jpg"
   title = "Mark Havens"
   subtitle = "Tech entreprener and writer"
   mdtext = '''
