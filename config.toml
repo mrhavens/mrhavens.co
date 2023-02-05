@@ -25,7 +25,7 @@ publishDir = "docs"
 
 [params.author]
   name = "Mark Havens"
-  thumbnail = "/images/mark-havens-headshot-white-background3.jpg"
+  thumbnail = "/images/mark-havens-headshot-white-background-thumb.jpg"
   description = "Inspiring tomorrow's tech visionaries, today."
 
 [params.index]
